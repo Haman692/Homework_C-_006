@@ -25,6 +25,7 @@ void FindPositive(int[] arr, out int pos, out int neg, out int zero)
     }
 }
 
+Console.Clear();
 int size = DataNUmber("Введите количесвто чисел");
 int[] array = new int [size];
 for (int i = 0; i < size; i++)
